@@ -1,0 +1,27 @@
+#container {
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #dddddd;
+    margin: 10% auto;
+    text-align: center;
+}
+
+
+#Letters a{
+ color: green;
+ background-color: darkgrey;
+ border-radius: 5px;
+ padding: 4px;   
+ cursor: pointer;
+}
+
+#Letters a:hover{
+    color: red;
+}
+
+#Letters a .de {
+    color: yellow;
+    text-decoration: underline;
+
+}
