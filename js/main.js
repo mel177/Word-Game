@@ -34,6 +34,7 @@ Main.UpdateLetter = function(letter){
             Main.Changes += 1;
             Main.WordU = Main.WordUArray.join("");
             document.getElementById("WORD").innerHTML = Main.WordU;
+            alert("Found Letter");
         }
 
     }
